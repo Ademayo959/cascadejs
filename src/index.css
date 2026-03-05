@@ -1,2 +1,12 @@
 @import "tailwindcss";
 
+@font-face {
+    font-family: "dmsans";
+    src: url("/src/assets/font/DMSans.ttf") format(truetype);
+    font-style: normal;
+    font-weight: 400;
+} 
+
+body {
+    font-family: "dmsans", sans-serif;
+}
