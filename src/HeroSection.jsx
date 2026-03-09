@@ -6,14 +6,14 @@ const HeroSection = () => {
                     width: "1000px",
                     height: "600px",
                     background: "radial-gradient(circle at center, #2dd3ee 0%, transparent 70%)",
-                    filter: "blur(250px)",
+                    filter: "blur(200px)",
                     opacity: 0.25,
                 }}
             />
             <div className="justify-self-center mt-20">
                 <div className="justify-self-center flex items-center gap-1 py-1 px-3 w-fit h-fit border border-gray-400 shadow-sm bg-white rounded-4xl">
                     <div className="h-3 w-3 bg-blue-200 rounded-full flex items-center justify-center">
-                        <div className="h-2 w-2 rounded-full bg-blue-400"></div>
+                        <div className="h-1.5 w-1.5 rounded-full bg-blue-400"></div>
                     </div>
                     <p className="text-[13px] text-gray-500">v1.0.0 is now available</p>
                 </div>
