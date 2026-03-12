@@ -5,6 +5,8 @@ import DevEx from "./Devex";
 import Features from "./Features";
 import ReasonsSec from "./ReasonsSec";
 import FAQs from "./FAQs";
+import StarRepoSec from "./StarRepoSec";
+import Footer from "./Footer";
 
 
 function App() {
@@ -17,6 +19,8 @@ function App() {
       <Features />
       <ReasonsSec />
       <FAQs />
+      <StarRepoSec />
+      <Footer />
     </div>
   );
 }

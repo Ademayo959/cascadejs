@@ -25,13 +25,13 @@ const HeroSection = () => {
                     <p className="text-center text-gray-500">A lightweight, human-readable Javascript library focused on 16 <br /> essential validation functions. Stop wrestling with patterns <br /> and start shipping</p>
                 </div>
                 <div className="flex gap-6 justify-self-center my-8"> 
-                    <div className="shadow-md flex gap-2 items-center bg-[#1d3989] w-fit h-fit py-2 px-3 rounded-4xl text-white">
+                    <div className="shadow-md flex gap-2 items-center cursor-pointer bg-[#1d3989] w-fit h-fit py-2 px-3 rounded-4xl text-white">
                         <p className="text-[16px]">Get Started</p>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="h-4 w-4">
                             <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
                         </svg>
                     </div>
-                    <div className="shadow-md w-fit h-fit py-2 px-3 rounded-4xl bg-white border border-gray-300">
+                    <div className="shadow-md w-fit h-fit py-2 px-3 cursor-pointer rounded-4xl bg-white border border-gray-300">
                         <p className="text-[16px] bg-white">Read the Docs</p>
                     </div>
                 </div>
