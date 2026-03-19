@@ -1,38 +1,47 @@
+import { useState } from "react";
+
 const FAQs = () => {
+    const faqs = [
+        {
+            question: "Do I need to know Regex?",
+            answer: "Not at all. That's exactly why Cascade.js exists. Just call simple readable functions like isEmail() or isStrongPassword() — no regex knowledge required."
+        },
+        {
+            question: "Can I use Cascade.js in both Browser and Node.js environments?",
+            answer: "Yes! Cascade.js is environment agnostic. It works seamlessly in both the browser and Node.js with zero configuration needed."
+        },
+        {
+            question: "Will Cascade.js work with frameworks like React or Vue?",
+            answer: "Absolutely. Cascade.js is framework agnostic — drop it into any React, Vue, Angular, or vanilla JS project without any extra setup."
+        },
+        {
+            question: "What makes Cascade.js different from other validation libraries?",
+            answer: "Cascade.js is built for readability first. Instead of cryptic regex patterns, you write validation logic that reads like plain English. Zero dependencies, lightweight, and beginner friendly."
+        },
+    ]
+
+     const [openIndex, setOpenIndex] = useState(null)
+
     return (
         <div className="my-12">
             <div className="max-w-6xl m-auto">
                 <p className="text-center text-4xl">Frequently asked Questions</p>
                 <div className="justify-self-center mt-12 grid gap-y-4">
-                    <div className="border border-gray-400 p-4 w-150 rounded-md grid gap-3">
-                        <div className="flex justify-between">
-                            <p>Do I need to know Regex?</p>
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 cursor-pointer">
-                                <path strokeLinecap="round" strokeLinejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
-                            </svg>
+                    {faqs.map((faq, index) => (
+                        <div key={index} className="border border-gray-400 rounded-md w-150">
+                            <div
+                                className="flex justify-between  p-4 w-150 items-center cursor-pointer"
+                                onClick={() => setOpenIndex(openIndex === index ? null : index)}
+                            >
+                                <p>{faq.question}</p>
+                                <span>{openIndex === index ? "-" : "+"}</span>
+                            </div>
+                            <div className={` overflow-hidden transition-all duration-300 ${openIndex === index ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
+                                }`}>
+                                <p className="p-4">{faq.answer}</p>
+                            </div>
                         </div>
-                        <div>
-                            <p className="text-gray-500 hidden">No! that's the main benefit! Cascade.js handles the regex for you through simple function calls </p>
-                        </div>
-                    </div>
-                    <div className="flex border border-gray-400 p-4 w-150 justify-between rounded-md">
-                        <p>Can i use Cascade.js in both Browser and Node.js Environment?</p>
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 cursor-pointer">
-                            <path strokeLinecap="round" strokeLinejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
-                        </svg>
-                    </div>
-                    <div className="flex border border-gray-400 p-4 w-150 justify-between rounded-md">
-                        <p>Will Cascade.js work with frameworks like React or Vue?</p>
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 cursor-pointer">
-                            <path strokeLinecap="round" strokeLinejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
-                        </svg>
-                    </div>
-                    <div className="flex border border-gray-400 p-4 w-150 justify-between rounded-md">
-                        <p>What makes Cascade.js different from other validation libraries?</p>
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 cursor-pointer">
-                            <path strokeLinecap="round" strokeLinejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
-                        </svg>
-                    </div>
+                    ))}
                 </div>
             </div>
         </div>
