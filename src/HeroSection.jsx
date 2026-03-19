@@ -38,12 +38,12 @@ const HeroSection = () => {
                 <hr className="text-gray-200" />
                 <div className="flex gap-10 my-8 justify-self-center">
                     <div className="text-center">
-                        <p className="text-2xl">12kb</p>
+                        <p className="text-2xl">4kb</p>
                         <p className="text-[12px] text-gray-400">Minified Size</p>
                     </div>
                     <div className="text-center">
-                        <p className="text-2xl">20k+</p>
-                        <p className="text-[12px] text-gray-400">Monthly Downloads</p>
+                        <p className="text-2xl">15+</p>
+                        <p className="text-[12px] text-gray-400">Validation Functions</p>
                     </div>
                     <div className="text-center">
                         <p className="text-2xl">0</p>

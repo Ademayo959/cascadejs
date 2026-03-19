@@ -12,7 +12,7 @@ const FAQs = () => {
                             </svg>
                         </div>
                         <div>
-                            <p className="text-gray-500">No! that's the main benefit! Cascade.js handles the regex for you through simple function calls </p>
+                            <p className="text-gray-500 hidden">No! that's the main benefit! Cascade.js handles the regex for you through simple function calls </p>
                         </div>
                     </div>
                     <div className="flex border border-gray-400 p-4 w-150 justify-between rounded-md">
