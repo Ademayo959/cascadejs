@@ -45,7 +45,7 @@ const ReasonsSec = () => {
                             <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 6.75 22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3-4.5 16.5" />
                         </svg>
                         <p className="font-extrabold text-xl my-2">Error Handling</p>
-                        <p className="text-gray-500 font-thin text-[14px]">First class type definitions included out of the <br /> box.</p>
+                        <p className="text-gray-500 font-thin text-[14px]">First class error handling out of the box.<br /> No more guessing why validation failed.</p>
                     </div>
                 </div>
             </div>

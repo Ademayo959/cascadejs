@@ -22,7 +22,7 @@ const Features = () => {
                                 <p>isURL()</p>
                             </div>
                             <div className="w-fit bg-gray-100 text-gray-700 px-3 py-0.5 rounded-xl">
-                                <p>isText()</p>
+                                <p>isGmail()</p>
                             </div>
                         </div>
                     </div>
@@ -36,10 +36,10 @@ const Features = () => {
                         <p className="text-gray-500 text-[14px]">Check for integers, floats, ranges, and even numbers. Perfect for pricing and quantity inputs.</p>
                         <div className="flex gap-3 my-4">
                             <div className="w-fit bg-gray-100 text-gray-700 px-3 py-0.5 rounded-xl">
-                                <p>isInteger()</p>
+                                <p>isNumeric()</p>
                             </div>
                             <div className="w-fit bg-gray-100 text-gray-700 px-3 py-0.5 rounded-xl">
-                                <p>isFloat()</p>
+                                <p>isDecimal()</p>
                             </div>
                         </div>
                     </div>
