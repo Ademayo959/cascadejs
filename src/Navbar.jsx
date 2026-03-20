@@ -8,8 +8,12 @@ const Navbar = () => {
                 <p className='font-extrabold text-[25px]'>Cascade.js</p>
             </div>
             <div className='flex gap-6 justify-self-center max-md:hidden'>
-                <p className='text-[17px] text-gray-600'>Features</p>
-                <p className='text-[17px] text-gray-600'>Documentation</p>
+                 <a href="https://www.npmjs.com/package/valcade?activeTab=readme">
+                    <p className='text-[17px] text-gray-600 cursor-pointer'>Features</p>
+                </a>
+                <a href="https://www.npmjs.com/package/valcade?activeTab=readme">
+                    <p className='text-[17px] text-gray-600 cursor-pointer'>Documentation</p>
+                </a>
                 <p className='text-[17px] text-gray-600'>Blogs</p>
             </div>
             <div>

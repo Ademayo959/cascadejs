@@ -1,6 +1,6 @@
 const InstallOptionSec = () => {
     return (
-        <div className="bg-white py-8">
+        <div id="installOptions" className="bg-white py-8">
             <div className="bg-white max-w-6xl m-auto justify-self-center">
                 <p className="text-4xl font-extrabold text-center">Start validating in Seconds</p>
                 <div className="flex mt-12 gap-x-12 m-auto">
