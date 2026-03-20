@@ -5,7 +5,7 @@ const StarRepoSec = () => {
                 <p className="text-5xl font-extrabold m-3">Ready to clean up your code</p>
                 <p className="text-gray-500 text-center m-4">Join thousands of developers shipping cleaner, safer <br /> applications today.</p>
                 <div className="justify-self-center py-4">
-                    <a href="https://github.com/Ademayo959/cascadejs">
+                    <a href="https://github.com/Ademayo959/Valcade">
                         <div className='h-fit w-fit py-3 px-5 hover:scale-110 transition-all border bg-[#1d3989] text-white border-gray-400 shadow-md flex gap-1 rounded-4xl items-center justify-center'>
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" className='text-white'
                                 fill="currentColor" viewBox="0 0 24 24" >

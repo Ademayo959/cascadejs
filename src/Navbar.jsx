@@ -17,7 +17,7 @@ const Navbar = () => {
                 <p className='text-[17px] text-gray-600'>Blogs</p>
             </div>
             <div>
-                <a href="https://github.com/Ademayo959/cascadejs">
+                <a href="https://github.com/Ademayo959/Valcade">
                     <div className='h-fit w-fit p-2 border border-gray-400 shadow-md flex gap-1 rounded-4xl items-center justify-center'>
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" className='text-gray-700'
                             fill="currentColor" viewBox="0 0 24 24" >
