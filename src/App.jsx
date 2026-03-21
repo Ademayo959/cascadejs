@@ -11,7 +11,7 @@ import Footer from "./Footer";
 
 function App() {
   return (
-    <div className="">
+    <div className="max-md:overflow-x-hidden">
       <Navbar />
       <HeroSection />
       <InstallOptionSec />
