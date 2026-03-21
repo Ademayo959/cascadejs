@@ -10,7 +10,7 @@ const HeroSection = () => {
                 style={{
                     width: "1000px",
                     height: "600px",
-                    background: "radial-gradient(circle at center, #e8f9fd 0%, transparent 70%)",
+                    background: "radial-gradient(circle at center, #7de3f4 0%, transparent 70%)",
                     filter: "blur(200px)",
                     opacity: 0.25,
                 }}
