@@ -27,8 +27,8 @@ const DevEx = () => {
                                 </svg>
                             </div>
                             <div>
-                                <p className='font-extrabold text-md'>Tree-Shakeable</p>
-                                <p className='text-gray-500 text-[14px] max-md:text-[12px]'>Only pay for the functions you actually import.</p>
+                                <p className='font-extrabold text-md'>Clear Error Messages</p>
+                                <p className='text-gray-500 text-[14px] max-md:text-[12px]'>Know exactly what failed and why, everytime.</p>
                             </div>
                         </div>
                     </div>
