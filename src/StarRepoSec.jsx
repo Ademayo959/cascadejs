@@ -2,7 +2,7 @@ const StarRepoSec = () => {
     return (
         <div className="bg-gray-100 py-16">
             <div className="max-w-6xl m-auto justify-self-center">
-                <p className="text-5xl font-extrabold m-3">Ready to clean up your code</p>
+                <p className="text-5xl font-extrabold m-3 max-md:text-center">Ready to clean up your code</p>
                 <p className="text-gray-500 text-center m-4">Join thousands of developers shipping cleaner, safer <br /> applications today.</p>
                 <div className="justify-self-center py-4">
                     <a href="https://github.com/Ademayo959/Valcade">

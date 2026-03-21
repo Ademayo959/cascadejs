@@ -28,13 +28,13 @@ const FAQs = () => {
                 <p className="text-center text-4xl">Frequently asked Questions</p>
                 <div className="justify-self-center mt-12 grid gap-y-4">
                     {faqs.map((faq, index) => (
-                        <div key={index} className="border border-gray-400 rounded-md w-150">
+                        <div key={index} className="border border-gray-400 rounded-md w-150 max-md:w-80">
                             <div
-                                className="flex justify-between  p-4 w-150 items-center cursor-pointer"
+                                className="flex justify-between  p-4 w-150 items-center cursor-pointer max-md:w-80"
                                 onClick={() => setOpenIndex(openIndex === index ? null : index)}
                             >
                                 <p>{faq.question}</p>
-                                <span>{openIndex === index ? "-" : "+"}</span>
+                                <span className="ml-4">{openIndex === index ? "-" : "+"}</span>
                             </div>
                             <div className={` overflow-hidden transition-all duration-300 ${openIndex === index ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
                                 }`}>

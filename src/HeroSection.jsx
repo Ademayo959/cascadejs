@@ -22,12 +22,12 @@ const HeroSection = () => {
                     </div>
                     <p className="text-[13px] text-gray-500">v1.0.3 is now available</p>
                 </div>
-                <div className="my-4">
-                    <p className="text-8xl font-extrabold">Validation without</p>
-                    <p className="text-8xl font-extrabold text-[#1d3989]">regex headaches</p>
+                <div className="my-4 max-md:justify-self-center">
+                    <p className="text-8xl font-extrabold max-md:text-[43px]">Validation without</p>
+                    <p className="text-8xl font-extrabold text-[#1d3989] max-md:text-[42px]">regex headaches</p>
                 </div>
-                <div className="mb-4">
-                    <p className="text-center text-gray-500">A lightweight, human-readable Javascript library focused on 16 <br /> essential validation functions. Stop wrestling with patterns <br /> and start shipping</p>
+                <div className="mb-4 justify-self-center">
+                    <p className="text-center text-gray-500 max-w-140 max-md:max-w-90 max-md:text-[14px]">A lightweight, human-readable Javascript library focused on 16 essential validation functions. Stop wrestling with patterns and start shipping</p>
                 </div>
                 <div className="flex gap-6 justify-self-center my-8">
                     <div onClick={scrollToFeatures} className="shadow-md flex gap-2 items-center cursor-pointer bg-[#1d3989] w-fit h-fit py-2 px-3 rounded-4xl text-white">
@@ -43,7 +43,7 @@ const HeroSection = () => {
                     </a>
                 </div>
                 <hr className="text-gray-200" />
-                <div className="flex gap-10 my-8 justify-self-center">
+                <div className="flex gap-10 my-8 justify-self-center max-md:gap-5">
                     <div className="text-center">
                         <p className="text-2xl">4kb</p>
                         <p className="text-[12px] text-gray-400">Minified Size</p>
