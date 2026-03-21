@@ -5,7 +5,7 @@ const HeroSection = () => {
     };
 
     return (
-        <div className="">
+        <div className="max-md:relative max-md:overflow-hidden">
             <div className="absolute rounded-full justify-self-center mt-12 pointer-events-none"
                 style={{
                     width: "1000px",
