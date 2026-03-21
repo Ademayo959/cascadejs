@@ -45,7 +45,7 @@ const HeroSection = () => {
                 <hr className="text-gray-200" />
                 <div className="flex gap-10 my-8 justify-self-center max-md:gap-5">
                     <div className="text-center">
-                        <p className="text-2xl">4kb</p>
+                        <p className="text-2xl">2.4kb</p>
                         <p className="text-[12px] text-gray-400">Minified Size</p>
                     </div>
                     <div className="text-center">
