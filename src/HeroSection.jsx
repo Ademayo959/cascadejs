@@ -20,7 +20,7 @@ const HeroSection = () => {
                     <div className="h-3 w-3 bg-blue-200 rounded-full flex items-center justify-center">
                         <div className="h-1.5 w-1.5 rounded-full bg-blue-400"></div>
                     </div>
-                    <p className="text-[13px] text-gray-500">v1.0.3 is now available</p>
+                    <p className="text-[13px] text-gray-500">v1.0.6 is now available</p>
                 </div>
                 <div className="my-4 max-md:justify-self-center">
                     <p className="text-8xl font-extrabold max-md:text-[43px]">Validation without</p>
